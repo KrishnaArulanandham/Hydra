@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
   return (
     <header className="container1">
@@ -20,9 +23,7 @@ const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
                 </li>
               </option>
               <option value="About">
-                <li>
-                  <a href="#about">About</a>
-                </li>
+                <Link to={"/About"}>About</Link>
               </option>
               <option value="Services">
                 <li>

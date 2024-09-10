@@ -5,6 +5,8 @@ import App from "./App.jsx";
 import "bootstrap/dist/css/bootstrap.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import WFP from "./Pages/WFP.jsx";
+import WMS from "./Pages/WMS.jsx";
+import About from "./Pages/About.jsx";
 
 const router = createBrowserRouter([
   {
@@ -12,8 +14,16 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/wfp",
+    path: "WFP",
     element: <WFP />,
+  },
+  {
+    path: "WMS",
+    element: <WMS />,
+  },
+  {
+    path: "About",
+    element: <About />,
   },
 ]);
 

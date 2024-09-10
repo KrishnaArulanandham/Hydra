@@ -6,21 +6,20 @@ const Action = ({}) => {
     <>
       <div className="container">
         <section class="content">
-          <h2>Featured Services</h2>
-
           <div class="featured">
             <div class="feature-item">
-              <h3>
-                <a href="">WATER FOOTPRINTS</a>
-              </h3>
+              <Link to={"/WFP"} className="wfp">
+                Water Footprints
+              </Link>
               <p>
                 Description of service 1. <a href="#">Learn more</a>
               </p>
             </div>
             <div class="feature-item">
-              <h3>
-                <a href="WMS.jsx">WATER Managment</a>
-              </h3>
+              <Link to={"/WMS"} className="wms">
+                Water Management
+              </Link>
+
               <p>
                 Description of service 2. <a href="#">Learn more</a>
               </p>
