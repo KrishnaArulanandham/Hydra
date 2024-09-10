@@ -2,7 +2,7 @@ const WFP = ({}) => {
   return (
     <>
       <div>
-        <p></p>
+        <p>thanks</p>
       </div>
     </>
   );

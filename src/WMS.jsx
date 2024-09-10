@@ -1,4 +1,4 @@
 const WMS = ({}) => {
-  return <></>;
+  return <>thanks</>;
 };
 export default WMS;

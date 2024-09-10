@@ -12,25 +12,8 @@
 }
 
 
-.hero {
-  background: url('hero-image.jpg') no-repeat center center/cover;
-  color: #fff;
-  text-align: center;
-  padding: 100px 20px;
-}
-
-.hero h1 {
-  font-size: 3em;
-  margin: 0;
-}
-
-.hero p {
-  font-size: 1.5em;
-}
 
 .cta-button {
-  background-color: #f60;
-  color: #fff;
   padding: 10px 20px;
   text-decoration: none;
   font-size: 1.2em;
@@ -70,4 +53,79 @@ footer a {
   color: #fff;
   text-decoration: none;
   margin: 0 10px;
+}
+
+
+
+
+
+
+
+.bottom {
+  background-color: #333;
+  margin-top: 30rem;
+  padding-bottom: -2rem;
+  padding-left: 35rem;
+  margin-bottom: -2rem;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-button {
+    margin-top: 20px;
+  }
+
+  .container1 {
+    padding: 20px 0;
+  }
+}
+
+.featured {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  flex: 1 1 30%;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.bottom {
+  background-color: #333;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+}
+
+/* Avoid negative margins/paddings */
+.tt {
+  padding-left: 2rem;
 }
