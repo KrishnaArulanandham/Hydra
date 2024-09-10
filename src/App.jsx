@@ -8,28 +8,18 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import WFP from "./WFP";
-import WMS from "./WMS.JSX";
-import Header from "./Header";
-import Action from "./Body";
-import Footer from "./Footer";
+import WFP from "./Pages/WFP";
+import WMS from "./Pages/WMS.jsx";
+import Header from "./Components/Header.jsx";
+import Action from "./Components/Body.jsx";
+import Footer from "./Components/Footer.jsx";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Router>
-        <Routes>
-          <Route exact path="/wfp" element={<WFP />} />
-
-          <Route exact path="/wms" element={<WMS />} />
-
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
-      </Router>
       <Header />
       <Action />
-      <Footer />
     </>
   );
 }

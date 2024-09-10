@@ -3,10 +3,10 @@ const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
     <header className="container1">
       <div className="row justify-content-center mt-3 mb-4">
         <div className="col-8">
-          <h1>BLUENUAL</h1>
+          <h1 className="head">BLUENUAL</h1>
         </div>
-        <div className="col-4 d-flex justify-content-end">
-          <button className="menu-button">
+        <div className="col-3 d-flex justify-content-end">
+          <div className="containment">
             <select
               className="form-select form-select-lg"
               value={selectedMenu}
@@ -36,7 +36,7 @@ const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
                 </li>
               </option>
             </select>
-          </button>
+          </div>
         </div>
       </div>
     </header>

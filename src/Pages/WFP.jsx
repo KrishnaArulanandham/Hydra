@@ -1,8 +1,10 @@
+import React from "react";
+
 const WFP = ({}) => {
   return (
     <>
       <div>
-        <p>thanks</p>
+        <p>WATER FOOTPRINTS</p>
       </div>
     </>
   );

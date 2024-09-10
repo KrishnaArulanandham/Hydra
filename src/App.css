@@ -1,5 +1,5 @@
 .container1 {
-  background-image: url("/agri.jpeg");
+  background-image: url("agri.jpeg");
   background-size: contain;
   background-position: top;
   background: cover;
@@ -9,8 +9,17 @@
   padding-bottom: 80px;
   text-align: center;
 
+
 }
 
+.head {
+  margin-top: -2rem;
+  margin-right: 15rem;
+}
+
+.containment {
+  margin-top: -2rem;
+}
 
 
 .cta-button {
@@ -57,17 +66,12 @@ footer a {
 
 
 
-
-
-
-
 .bottom {
-  background-color: #333;
   margin-top: 30rem;
-  padding-bottom: -2rem;
+  color: #333;
   padding-left: 35rem;
-  margin-bottom: -2rem;
 }
+
 
 
 
@@ -82,7 +86,7 @@ footer a {
   }
 
   .menu-button {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .container1 {
@@ -119,13 +123,14 @@ footer a {
   margin: 0 10px;
 }
 
+
 .bottom {
-  background-color: #333;
+  background-color: white;
   margin-top: 2rem;
   padding: 1rem 2rem;
 }
 
-/* Avoid negative margins/paddings */
+/* Avoid negative margins/paddings 
 .tt {
   padding-left: 2rem;
-}
+}*/
