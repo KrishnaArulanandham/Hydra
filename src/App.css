@@ -81,15 +81,21 @@ footer a {
 
 
 .wf1 {
-  background-image: url("wfp.jpg");
   background-repeat: no-repeat;
   background-position: left;
   text-align: center;
 }
 
+.input {
+  padding-left: 20rem;
+  padding-top: 5rem;
+}
 
-
-
+.lbl1 {
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 2rem;
+}
 
 @media (max-width: 768px) {
   .nav-links {
