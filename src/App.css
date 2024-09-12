@@ -1,5 +1,5 @@
 .container1 {
-  background-image: url("agri.jpeg");
+  background-image: url("/public/agri.jpeg");
   background-size: contain;
   background-position: top;
   background: cover;
@@ -10,15 +10,17 @@
   text-align: center;
 
 
+
 }
 
 .head {
   margin-top: -2rem;
   margin-right: 15rem;
+
 }
 
 .containment {
-  margin-top: -2rem;
+  margin-top: -4rem;
 }
 
 
@@ -73,11 +75,8 @@ footer a {
   font-size: 20px;
 }
 
-.bottom {
-  margin-top: 30rem;
-  color: #333;
-  padding-left: 35rem;
-}
+
+
 
 
 .wf1 {
@@ -95,7 +94,33 @@ footer a {
   font-size: 30px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-bottom: 2rem;
+  margin-top: 5rem;
 }
+
+.pic {
+  margin-left: 20rem;
+}
+
+.fqa {
+  font-size: larger;
+  margin-top: 1rem;
+}
+
+.atc {
+  margin-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 2rem;
+
+}
+
+
+.ftcontainer2 {}
+
+
+
+
+
+
 
 @media (max-width: 768px) {
   .nav-links {
@@ -105,9 +130,14 @@ footer a {
 
   .menu-button {
     margin-top: 10px;
+
   }
 
   .container1 {
+    padding: 20px 0;
+  }
+
+  .container2 {
     padding: 20px 0;
   }
 }
@@ -140,15 +170,3 @@ footer a {
   text-decoration: none;
   margin: 0 10px;
 }
-
-
-.bottom {
-  background-color: white;
-  margin-top: 2rem;
-  padding: 1rem 2rem;
-}
-
-/* Avoid negative margins/paddings 
-.tt {
-  padding-left: 2rem;
-}*/

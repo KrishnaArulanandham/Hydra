@@ -1,12 +1,18 @@
 const Footer = ({}) => {
+  var today = new Date();
   return (
     <>
-      <div className="bottom">
-        <p>2024 - Agro Water Foot Prints</p>
-        <div className="tt">
-          <p>Privacy Policy | Terms</p>
+      <footer className="ftcontainer2">
+        <div className="row justify-content-center mt-3 mb-4">
+          <div className="col-8">
+            <h5>Agro Water Foot Prints - {today.getFullYear()}</h5>
+            <p>
+              Thanks to cisit our Website to know and get idea about WATER
+              FOOTPRINTS
+            </p>
+          </div>
         </div>
-      </div>
+      </footer>
     </>
   );
 };

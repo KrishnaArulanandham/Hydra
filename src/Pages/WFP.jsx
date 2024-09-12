@@ -1,14 +1,16 @@
 const WFP = ({}) => {
   return (
     <>
-      <div className="text-center">
-        <div className="wf1">
+      <div>
+        <div className="pic">
           <img
-            className="col-3 d-flex justify-content-end"
+            className="row justify-content-center mt-3 mb-4"
             src="wfp.jpg"
-            style={{ width: "100px" }}
+            style={{ width: "300px" }}
           />
-          <h2>WATER FOOTPRINTS</h2>
+        </div>
+        <div className="text-center">
+          <h2 className="head2">WATER FOOTPRINTS</h2>
         </div>
       </div>
       <div className="input">

@@ -7,6 +7,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import WFP from "./Pages/WFP.jsx";
 import WMS from "./Pages/WMS.jsx";
 import About from "./Pages/About.jsx";
+import Register from "./Pages/Register.jsx";
+import LogIn from "./Pages/LogIn.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
   {
     path: "About",
     element: <About />,
+  },
+  {
+    path: "Register",
+    element: <Register />,
+  },
+  {
+    path: "LogIn",
+    element: <LogIn />,
   },
 ]);
 
