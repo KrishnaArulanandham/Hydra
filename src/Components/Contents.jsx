@@ -150,6 +150,7 @@ const Content = ({}) => {
               </div>
             </details>
           </div>
+          <hr style={{ marginTop: "3rem" }} />
         </div>
       </div>
     </>
