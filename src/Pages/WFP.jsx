@@ -1,26 +1,25 @@
+import wfp from "../images/wfp1.png";
+
 const WFP = ({}) => {
   return (
     <>
-      <div>
-        <div className="pic">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
           <img
-            className="row justify-content-center mt-3 mb-4"
-            src="wfp.jpg"
-            style={{ width: "300px" }}
-          />
+            src={wfp}
+            alt=""
+            width="300"
+            height=""
+            class="d-inline-block align-text-top"
+          />{" "}
+          <div className="navbar-brand">
+            <h1 className="text-center">WATER FOOTPRINTS</h1>
+          </div>
+          <div className="row">
+            <div className="justify-content-center"></div>
+          </div>
         </div>
-        <div className="text-center">
-          <h2 className="head2">WATER FOOTPRINTS</h2>
-        </div>
-      </div>
-      <div className="input">
-        <p className="lbl1">Types of Products :</p>
-        <input
-          type="text"
-          placeholder="Enter item name"
-          style={{ width: "400px", height: "40px" }}
-        />
-      </div>
+      </nav>
     </>
   );
 };
