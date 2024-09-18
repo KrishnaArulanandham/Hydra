@@ -58,6 +58,39 @@ const WFP = () => {
           </div>
         </div>
       </div>
+      <table class="table" style={{ marginTop: "50px" }}>
+        <thead>
+          <tr>
+            <th scope="col">S.NO</th>
+            <th scope="col">PRODUCT</th>
+            <th scope="col">WATER FOOTPRINTS</th>
+            <th scope="col">REGION</th>
+            <th scope="col">WEATHER</th>
+            <th scope="col">SOLUTION</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Chocolate</td>
+            <td>70%</td>
+            <td>West</td>
+            <td>66 C</td>
+            <td>grey water</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
     </>
   );
 };

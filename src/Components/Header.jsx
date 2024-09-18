@@ -1,6 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import ft from "../images/foot12.png";
+import bg from "../images/agri.jpeg";
 const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
   const navigate = useNavigate(); // Hook to navigate programmatically
 
@@ -18,18 +20,14 @@ const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
   return (
     <header>
       <div className="container1">
-        <div className="row justify-content-between align-items-center mt-3 mb-4">
-          <div className="col-11 text-center">
-            <h1
-              className={"text-success head"}
-              style={{ marginBottom: "20rem", paddingLeft: "350px" }}
-            >
-              BLUENUAL
-            </h1>
+        <div className="justify-content-between align-items-center mt-3 mb-4">
+          <img src={bg} class="img-fluid" alt="BG" />
+          <div className="text-center">
+            <h1 className={"text-primary"}>BLUENUAL</h1>
           </div>
         </div>
       </div>
-      <div className={"row"}>
+      <div className="row">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">

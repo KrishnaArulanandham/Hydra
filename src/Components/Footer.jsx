@@ -7,7 +7,7 @@ const Footer = ({}) => {
           <div className="col-8">
             <h5>Agro Water Foot Prints - {today.getFullYear()}</h5>
             <p>
-              Thanks to cisit our Website to know and get idea about WATER
+              Thanks to visit our Website to know and get idea about WATER
               FOOTPRINTS
             </p>
           </div>
