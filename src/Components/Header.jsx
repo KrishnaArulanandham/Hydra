@@ -18,7 +18,6 @@ const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
   return (
     <header>
       <div className="container1">
-        {" "}
         <div className="row justify-content-between align-items-center mt-3 mb-4">
           <div className="col-11 text-center">
             <h1
