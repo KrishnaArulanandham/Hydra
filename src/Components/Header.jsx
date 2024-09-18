@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import ft from "../images/foot12.png";
 import bg from "../images/agri.jpeg";
+import { DropdownItem } from "react-bootstrap";
 const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
   const navigate = useNavigate(); // Hook to navigate programmatically
 
@@ -65,16 +66,16 @@ const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Dropdown
+                    MENU
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="Action">
                         Action
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="Another action">
                         Another action
                       </a>
                     </li>
@@ -82,7 +83,7 @@ const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
                       <hr class="dropdown-divider" />
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="dropdown-item" href="Some">
                         Something else here
                       </a>
                     </li>
@@ -123,17 +124,6 @@ const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
                   </Link>
                 </li>
               </ul>
-              <form class="d-flex">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
             </div>
           </div>
         </nav>
