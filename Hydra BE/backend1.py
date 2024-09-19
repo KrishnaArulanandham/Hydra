@@ -1,5 +1,5 @@
 import os
-from flask import Flask, jsonify, request # type: ignore
+from flask import Flask, jsonify
 from flask_cors import CORS
 import mysql.connector
 from flask import Flask, render_template
