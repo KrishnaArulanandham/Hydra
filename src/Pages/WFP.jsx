@@ -1,5 +1,5 @@
 import wfp from "../images/wfp1.png";
-
+import { Link } from "react-router-dom";
 const WFP = () => {
   return (
     <>
@@ -24,6 +24,13 @@ const WFP = () => {
               >
                 WATER FOOTPRINTS
               </h1>
+              <div className="">
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
+                    <Link to={"/"}>Home</Link>
+                  </a>
+                </li>
+              </div>
             </div>
           </div>
         </nav>
