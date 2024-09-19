@@ -24,7 +24,7 @@ const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
         <div className="justify-content-between align-items-center mt-3 mb-4">
           <img src={bg} class="img-fluid" alt="BG" />
           <div className="text-center">
-            <h1 className={"text-primary"}>BLUENUAL</h1>
+            <h1 className={"text-success"}>BLUENUAL</h1>
           </div>
         </div>
       </div>
@@ -107,9 +107,7 @@ const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
                     tabindex="-1"
                     aria-disabled="true"
                     style={{ marginLeft: "450px" }}
-                  >
-                    Register
-                  </Link>
+                  ></Link>
                 </li>
                 <li class="nav-item">
                   <Link
@@ -119,9 +117,7 @@ const Header = ({ selectedMenu, handleMenuSelectionChange }) => {
                     tabindex="-1"
                     aria-disabled="true"
                     style={{ marginLeft: "30px" }}
-                  >
-                    Log In
-                  </Link>
+                  ></Link>
                 </li>
               </ul>
             </div>
