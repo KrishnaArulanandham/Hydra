@@ -4,10 +4,12 @@ from flask_cors import CORS
 import mysql.connector
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
+db_user = os.getenv('silliconsingam')
+db_password = os.getenv('krishna2324')
 
 app = Flask(__name__)
 CORS(app)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://username:password@localhost/dbname'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://silliconsingam:krishna2324@%/BLUENUAL'
 
 db = SQLAlchemy(app)
 
@@ -35,8 +37,6 @@ def get_db_connection():
     conn = mysql.connector.connect(**db_config)
     return conn
 
-# Sample route to fetch data
-@app.route('/api/data', methods=['GET'])
 def fetch_data():
     # Get the MySQL connection
     conn = get_db_connection()
