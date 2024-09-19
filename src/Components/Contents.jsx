@@ -36,10 +36,7 @@ const Content = ({}) => {
           </div>
           <div className="justify-content-md-center">
             <details className="fqa">
-              <summary
-                className={"col-3 text-center"}
-                style={{ marginLeft: "52px" }}
-              >
+              <summary className={"col-3 text-center"}>
                 Why is the water footprint important ?
               </summary>
 
@@ -55,10 +52,7 @@ const Content = ({}) => {
           </div>
           <div className={"justify-content-md-center"}>
             <details className="fqa">
-              <summary
-                className={"col-3 text-center"}
-                style={{ marginLeft: "59px" }}
-              >
+              <summary className={"col-4 text-center"}>
                 What are the types of water footprints?
               </summary>
 
@@ -75,10 +69,7 @@ const Content = ({}) => {
           </div>
           <div className={"justify-content-md-center"}>
             <details className="fqa">
-              <summary
-                className={"col-3 text-center"}
-                style={{ marginLeft: "54px" }}
-              >
+              <summary className={"col-3 text-center"}>
                 How is the water footprint calculated?
               </summary>
 
@@ -94,10 +85,7 @@ const Content = ({}) => {
           </div>
           <div className={"justify-content-md-center"}>
             <details className="fqa">
-              <summary
-                className={"col-5 text-center"}
-                style={{ marginLeft: "30px" }}
-              >
+              <summary className={"col-5 text-center"}>
                 What is an example of a product with a high water footprint?
               </summary>
 
@@ -113,10 +101,7 @@ const Content = ({}) => {
           </div>
           <div className={"justify-content-md-center"}>
             <details className="fqa">
-              <summary
-                className={"col-4 text-center"}
-                style={{ marginLeft: "43px" }}
-              >
+              <summary className={"col-4 text-center"}>
                 How can individuals reduce their water footprint?
               </summary>
 
@@ -132,10 +117,7 @@ const Content = ({}) => {
           </div>
           <div className={"justify-content-md-center"}>
             <details className="fqa">
-              <summary
-                className={"col-5 text-center"}
-                style={{ marginLeft: "52px" }}
-              >
+              <summary className={"col-6 text-center"}>
                 What is the difference between water footprint and virtual
                 water?
               </summary>

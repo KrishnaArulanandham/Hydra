@@ -66,17 +66,36 @@ const WFP = () => {
             <th scope="col">WATER FOOTPRINTS</th>
             <th scope="col">REGION</th>
             <th scope="col">WEATHER</th>
+            <th scope="col">SOIL</th>
             <th scope="col">SOLUTION</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Chocolate</td>
-            <td>70%</td>
-            <td>West</td>
-            <td>66 C</td>
-            <td>grey water</td>
+            <td>RICE</td>
+            <td>
+              BLUE WATER 44%, <br />
+              GREEN WATER 48%,
+              <br /> GREY WATER 8%
+            </td>
+            <td>
+              SOUTH ASIA,
+              <br />
+              EAST ASIA, <br />
+              WEST ASIA, <br />
+              NORTH AMERICA,
+              <br />
+              EAST AFRICA,
+              <br />
+              SOUTHER EUROPE
+            </td>
+            <td>
+              Tempersture : 20 C,
+              <br />
+              Rainfall : 1000 - 1500 m, <br />
+              High humidity, <br />8 t0 10 hrs sunligth
+            </td>
           </tr>
           <tr>
             <th scope="row">2</th>
